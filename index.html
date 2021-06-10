@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>JavaScript Game</title>
+</head>
+
+<body>
+
+  <div class="emoji">
+    <img src="./image/happy.png" class="happy">
+    <img src="./image/sad.png" class="sad">
+  </div>
+  <div class="body">
+    <div class="play">
+      <div class="first-part">
+        <div class="heading">
+          <img src="./image/question 1.svg" alt="">
+        </div>
+        <div class="heading-text">
+          <p>What shape am I thinking of?</p>
+        </div>
+      </div>
+      <div class="second-part">
+        <div class="sub clk" id="o-1" onclick="borderChange('o-1', 1)">
+          <img src="./image/Vector (8).svg">
+          <p>‍Rectangle</p>
+        </div>
+        <div class="sub clk" id="o-2" onclick="borderChange('o-2', 2)">
+          <img src="./image/Vector (9).svg">
+          <p>‍Triangle</p>
+        </div>
+        <div class="sub clk" id="o-3" onclick="borderChange('o-3', 3)">
+          <img src="./image/Vector (10).svg">
+          <p>Pentagon</p>
+        </div>
+        <div class="sub clk" id="o-4" onclick="borderChange('o-4', 4)">
+          <img src="./image/Vector (11).svg">
+          <p>Square</p>
+        </div>
+        <div class="sub clk" id="o-5" onclick="borderChange('o-5',5)">
+          <img src="./image/Vector (12).svg">
+          <p>‍Circle</p>
+        </div>
+        <div class="sub clk" id="o-6" onclick="borderChange('o-6', 6)">
+          <img src="./image/Vector (13).svg">
+          <p>‍Hexagon</p>
+        </div>
+        <!-- <p><b>User's number mapping: <span id="mapping"></span></b></p>
+      <p><b>The user guessed: <span id="user-guessed"></span></b></p> -->
+        <div class="play-footer">
+          <p>GUESS!</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="result-container">
+      <p class="result-text">Results</p>
+      <div class="players">
+        <p><b>User</b></p>
+        <p><b>Computer</b></p>
+      </div>
+      <div class="result">
+        <div class="result-sub1">
+          <img class="result-sub1-img1" src="./image/Vector.svg">
+          <img class="result-sub1-img2" src="./image/Vector (14).svg">
+        </div>
+        <div class="result-sub2">
+          <img class="result-sub2-img1" src="./image/Vector (14).svg">
+          <img class="result-sub2-img2" src="./image/Vector.svg">
+        </div>
+      </div>
+      <div class="result-count">
+        <p><span id="correct">0</span></p>
+        <p><span id="wrong">0</span></p>
+      </div>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>

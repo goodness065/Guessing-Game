@@ -1,0 +1,131 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(80,129,221);
+  padding: 20px 112px;
+}
+.body{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Mulish', sans-serif;
+}
+
+.sad{
+  height: 227px;
+  display: none;
+}
+
+.happy{
+  display: none;
+}
+
+.play{
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #5488E8;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 24px;
+}
+
+.result-container{
+  background: #FFFFFF;
+  border-radius: 4px;
+  width: 387px;
+  height: 301px;
+  padding: 32px;
+}
+
+.first-part{
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.heading-text p{
+  font-weight: 800;
+  font-size: 30px;
+  color: #484848;
+  font-style: normal;
+}
+
+.second-part img{
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+  margin-left: 8px;
+}
+
+.sub{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 494px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  height: 36px;
+  margin-bottom: 24px;
+}
+.play-footer{
+  box-shadow: 0px 0px 8px 3px rgba(84, 136, 232, 0.25);
+  border-radius: 4px;
+  background: linear-gradient(180deg, #5488E8 0%, #4169B3 100%);
+  width: 494px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.result{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.emoji{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-container p{
+  font-style: normal;
+  font-size: 30px;
+  color: #484848;
+  font-weight: 800;
+}
+
+.result-sub1-img2{
+  display: none;
+}
+
+.result-sub1-img1{
+  display: none;
+}
+
+.result-sub2-img2{
+  display: none;
+}
+
+.result-sub2-img1{
+  display: none;
+}
+
+.players{
+  padding-top: 25px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.result-count{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10px;
+}

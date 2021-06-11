@@ -14,14 +14,6 @@ body{
   font-family: 'Mulish', sans-serif;
 }
 
-.sad{
-  height: 227px;
-  display: none;
-}
-
-.happy{
-  display: none;
-}
 
 .play{
   background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #5488E8;
@@ -79,7 +71,13 @@ body{
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  color: #fff;
 }
+
+.play-footer:hover{
+  background: #333;
+}
+
 .result{
   display: flex;
   justify-content: space-between;
@@ -91,6 +89,29 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 15% auto;
+}
+
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sad{
+  height: 227px;
+  display: none;
+  object-fit: cover;
+}
+
+.happy{
+  display: none;
 }
 
 .result-container p{
